@@ -1,0 +1,20 @@
+#LoadMoreData{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap: 10px;
+}
+.item{
+    border: 1px solid black;
+}
+.item img{
+    max-width: 250px;
+}
+#LoadMoreData button{
+    grid-column: span 4;
+    width: 30%;
+    margin: auto;
+    &:disabled{
+        background-color: #808080;
+        cursor: not-allowed;
+    }
+}
