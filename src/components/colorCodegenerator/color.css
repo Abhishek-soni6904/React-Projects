@@ -1,0 +1,9 @@
+.wrapper{
+    flex-direction: column;
+}
+h2{
+    font-size: 4rem;
+}
+#colorWrapper h3{
+    font-size: 3rem;
+}
