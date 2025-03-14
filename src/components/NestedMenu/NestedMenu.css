@@ -1,0 +1,21 @@
+#nestedMenu{
+    background-color: #0000f68b;
+    width: fit-content;
+    height: 90vh;
+    text-align: left;
+}
+#nestedMenu span{
+    margin-left: 10px;
+    cursor: pointer;
+    color: #fff;
+    font-weight: 900;
+    font-size: 2rem;
+}
+#nestedMenu ul{
+    list-style-type:none ;
+}
+#nestedMenu ul a{
+    font-size: 1.5rem;
+    color: black;
+    text-decoration: none;
+}
