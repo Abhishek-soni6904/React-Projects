@@ -4,7 +4,8 @@ import './App.css';
 // import StarRating from './components/StarRating/StarRating';
 // import Slider from './Slider/Slider';
 // import LoadMoreData from './components/Load_More_Data/LoadMoreData';
-import NestedMenu from './components/NestedMenu/NestedMenu';
+// import NestedMenu from './components/NestedMenu/NestedMenu';
+import QrCodeGenerator from './components/QrCodeGenerator/QrCodeGenerator';
 function App() {
   return (
     <div className="App">
@@ -13,7 +14,8 @@ function App() {
     <StarRating noOfStars={10}/>
     <Slider url="https://picsum.photos/v2/list" page="1" limit="15 "/>
     <LoadMoreData/> */}
-    <NestedMenu/>
+    {/* <NestedMenu/> */}
+    <QrCodeGenerator/>
     </div>
   );
 }
