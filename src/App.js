@@ -8,6 +8,7 @@ import './App.css';
 // import QrCodeGenerator from './components/QrCodeGenerator/QrCodeGenerator';
 // import LightDarkMode from './components/LightDarkMode/LightDarkMode';
 // import ScrollIndicator from './components/ScrollIndicator/ScrollIndicator';
+import TabsParent from './components/customTabs/TabsParent';
 function App() {
   return (
     <div className="App">
@@ -20,6 +21,7 @@ function App() {
     {/* <QrCodeGenerator/> */}
     {/* <LightDarkMode/> */}
       {/* <ScrollIndicator/> */}
+      <TabsParent/>
     </div>
   );
 }
