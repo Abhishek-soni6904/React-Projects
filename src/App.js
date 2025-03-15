@@ -8,7 +8,8 @@ import './App.css';
 // import QrCodeGenerator from './components/QrCodeGenerator/QrCodeGenerator';
 // import LightDarkMode from './components/LightDarkMode/LightDarkMode';
 // import ScrollIndicator from './components/ScrollIndicator/ScrollIndicator';
-import TabsParent from './components/customTabs/TabsParent';
+// import TabsParent from './components/customTabs/TabsParent';
+import Modal from './components/customModal/Modal';
 function App() {
   return (
     <div className="App">
@@ -21,7 +22,8 @@ function App() {
     {/* <QrCodeGenerator/> */}
     {/* <LightDarkMode/> */}
       {/* <ScrollIndicator/> */}
-      <TabsParent/>
+      {/* <TabsParent/> */}
+      <Modal header={<h2>This Header is passed from Parent</h2>}/>
     </div>
   );
 }
