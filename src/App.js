@@ -5,7 +5,8 @@ import './App.css';
 // import Slider from './Slider/Slider';
 // import LoadMoreData from './components/Load_More_Data/LoadMoreData';
 // import NestedMenu from './components/NestedMenu/NestedMenu';
-import QrCodeGenerator from './components/QrCodeGenerator/QrCodeGenerator';
+// import QrCodeGenerator from './components/QrCodeGenerator/QrCodeGenerator';
+import LightDarkMode from './components/LightDarkMode/LightDarkMode';
 function App() {
   return (
     <div className="App">
@@ -15,7 +16,8 @@ function App() {
     <Slider url="https://picsum.photos/v2/list" page="1" limit="15 "/>
     <LoadMoreData/> */}
     {/* <NestedMenu/> */}
-    <QrCodeGenerator/>
+    {/* <QrCodeGenerator/> */}
+    <LightDarkMode/>
     </div>
   );
 }

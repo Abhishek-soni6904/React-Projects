@@ -1,0 +1,26 @@
+:root{
+    --background: #fff;
+    --color: #000;
+    --btn-bg:#000;
+    --btn-color:#fff
+}
+[data-theme="Dark"]{
+    --background: #000;
+    --color: #fff;
+    --btn-bg:#fff;
+    --btn-color:#000
+}
+#LightDark{
+    background-color: var(--background);
+    height: 90vh;
+    color: var(--color);
+    transition: background-color 0.5s, color 0.5s;
+}
+#LightDark h2{
+    font-size: 4rem;
+}
+#LightDark button{
+    background-color: var(--btn-bg);
+    color: var(--btn-color);
+    transition: background-color 0.5s, color 0.5s;
+}

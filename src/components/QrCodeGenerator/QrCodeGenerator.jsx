@@ -8,22 +8,22 @@ export default function QrCodeGenerator() {
   return (
     <div id="QrCodeGenerator">
       <h2>QR Code Generator</h2>
-      <div style={{marginBottom:"50px"}}>
-        <input style={{ marginRight: "10px",padding:"10px",width:"250px" }}
-          type="text" 
-          placeholder="Enter value here" 
+      <div style={{ marginBottom: "50px" }}>
+        <input style={{ marginRight: "10px", padding: "10px", width: "250px" }}
+          type="text"
+          placeholder="Enter value here"
           value={inputValue}
           onChange={(e) => setInputValue(e.target.value)}
         />
-        <button 
-          onClick={() => setQRValue(inputValue)} 
+        <button
+          onClick={() => { setQRValue(inputValue); setInputValue("") }}
           disabled={!inputValue.trim()} // Disables button if input is empty
         >
           Generate
         </button>
       </div>
       <div>
-        {QRvalue && <QRCode id="QRCode" value={QRvalue} size={400}/>}
+        {QRvalue && <QRCode id="QRCode" value={QRvalue} size={400} />}
       </div>
     </div>
   );
