@@ -6,7 +6,8 @@ import './App.css';
 // import LoadMoreData from './components/Load_More_Data/LoadMoreData';
 // import NestedMenu from './components/NestedMenu/NestedMenu';
 // import QrCodeGenerator from './components/QrCodeGenerator/QrCodeGenerator';
-import LightDarkMode from './components/LightDarkMode/LightDarkMode';
+// import LightDarkMode from './components/LightDarkMode/LightDarkMode';
+// import ScrollIndicator from './components/ScrollIndicator/ScrollIndicator';
 function App() {
   return (
     <div className="App">
@@ -17,7 +18,8 @@ function App() {
     <LoadMoreData/> */}
     {/* <NestedMenu/> */}
     {/* <QrCodeGenerator/> */}
-    <LightDarkMode/>
+    {/* <LightDarkMode/> */}
+      {/* <ScrollIndicator/> */}
     </div>
   );
 }
